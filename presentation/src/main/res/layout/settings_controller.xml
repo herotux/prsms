@@ -99,6 +99,14 @@
             app:icon="@drawable/ic_title_black_24dp"
             app:title="@string/settings_system_font_title"
             app:widget="@layout/settings_switch_widget" />
+        
+        <com.moez.QKSMS.common.widget.PreferenceView
+            android:id="@+id/shamsiDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_title_black_24dp"
+            app:title="@string/settings_shamsi_date_title"
+            app:widget="@layout/settings_switch_widget" />
 
         <View
             android:layout_width="match_parent"

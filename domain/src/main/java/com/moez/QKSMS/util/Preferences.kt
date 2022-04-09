@@ -93,6 +93,7 @@ class Preferences @Inject constructor(
         true -> NIGHT_MODE_SYSTEM
         false -> NIGHT_MODE_OFF
     })
+    val shamsiDate = rxPrefs.getBoolean("shamsiDate", false)
     val nightStart = rxPrefs.getString("nightStart", "18:00")
     val nightEnd = rxPrefs.getString("nightEnd", "6:00")
     val black = rxPrefs.getBoolean("black", false)

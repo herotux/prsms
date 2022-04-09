@@ -114,6 +114,9 @@ class SettingsPresenter @Inject constructor(
 
         disposables += prefs.systemFont.asObservable()
                 .subscribe { enabled -> newState { copy(systemFontEnabled = enabled) } }
+        
+        disposables += prefs.shamsiDate.asObservable()
+                .subscribe { enabled -> newState { copy(shamsiDateEnabled = enabled) } }
 
         disposables += prefs.unicode.asObservable()
                 .subscribe { enabled -> newState { copy(stripUnicodeEnabled = enabled) } }

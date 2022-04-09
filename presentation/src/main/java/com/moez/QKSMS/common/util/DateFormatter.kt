@@ -27,6 +27,9 @@ import java.text.SimpleDateFormat
 import java.util.*
 import javax.inject.Inject
 import javax.inject.Singleton
+import com.moez.QKSMS.common.util.shamsicalendar.PersianDateFormat;
+import com.moez.QKSMS.common.util.shamsicalendar.PersianDate;
+import com.moez.QKSMS.common.util.shamsicalendar.LanguageUtils;
 
 @Singleton
 class DateFormatter @Inject constructor(val context: Context) {
@@ -48,50 +51,102 @@ class DateFormatter @Inject constructor(val context: Context) {
         return SimpleDateFormat(formattedPattern, Locale.getDefault())
     }
 
+    private fun getPersianDateFormat(pattern: String): PersianDateFormat {
+        return PersianDateFormat(pattern)
+
+
     fun getDetailedTimestamp(date: Long): String {
-        return getFormatter("M/d/y, h:mm:ss a").format(date)
+        val pdate = PersianDate(date);
+        if (!prefs.shamsiDate.get()) {
+            return getFormatter("M/d/y, h:mm:ss a").format(date)
+        } else {
+            return getPersianDateFormat("y/MM/dd HH:mm:ss").format(pdate)
+        }
     }
 
     fun getTimestamp(date: Long): String {
-        return getFormatter("h:mm a").format(date)
+        val pdate = PersianDate(date);
+        if (!prefs.shamsiDate.get()) {
+            return getFormatter("h:mm a").format(date)
+        } else {
+            return getPersianDateFormat("HH:mm").format(pdate)
+
+        }
     }
 
     fun getMessageTimestamp(date: Long): String {
         val now = Calendar.getInstance()
         val then = Calendar.getInstance()
         then.timeInMillis = date
+        val pdate = PersianDate(date);
 
-        return when {
-            now.isSameDay(then) -> getFormatter("h:mm a")
-            now.isSameWeek(then) -> getFormatter("E h:mm a")
-            now.isSameYear(then) -> getFormatter("MMM d, h:mm a")
-            else -> getFormatter("MMM d yyyy, h:mm a")
-        }.format(date)
+        if (!prefs.shamsiDate.get()) {
+            return when {
+                now.isSameDay(then) -> getFormatter("h:mm a")
+                now.isSameWeek(then) -> getFormatter("E h:mm a")
+                now.isSameYear(then) -> getFormatter("MMM d, h:mm a")
+                else -> getFormatter("MMM d yyyy, h:mm a")
+            }.format(date)
+            
+        } else {
+            return when {
+                now.isSameDay(then) -> getPersianDateFormat('HH:mm');
+                now.isSameWeek(then) -> getPersianDateFormat('l HH:mm');
+                now.isSameYear(then) -> getPersianDateFormat('F dd HH:mm');
+                else -> getPersianDateFormat('Y F dd HH:mm');
+            }.format(pdate)
+            
+
+        }
+
+        
     }
 
     fun getConversationTimestamp(date: Long): String {
         val now = Calendar.getInstance()
         val then = Calendar.getInstance()
         then.timeInMillis = date
+        val pdate = PersianDate(date);
+        if (!prefs.shamsiDate.get()) {
+            return when {
+                now.isSameDay(then) -> getFormatter("h:mm a")
+                now.isSameWeek(then) -> getFormatter("E")
+                now.isSameYear(then) -> getFormatter("MMM d")
+                else -> getFormatter("MM/d/yy")
+            }.format(date)
+        } else {
+            return when {
+                now.isSameDay(then) -> getPersianDateFormat('HH:mm');
+                now.isSameWeek(then) -> getPersianDateFormat('l');
+                now.isSameYear(then) -> getPersianDateFormat('dd F');
+                else -> getPersianDateFormat('y/MM/dd HH:mm');
+            }.format(pdate)
+            
 
-        return when {
-            now.isSameDay(then) -> getFormatter("h:mm a")
-            now.isSameWeek(then) -> getFormatter("E")
-            now.isSameYear(then) -> getFormatter("MMM d")
-            else -> getFormatter("MM/d/yy")
-        }.format(date)
+        }
+        
     }
 
     fun getScheduledTimestamp(date: Long): String {
         val now = Calendar.getInstance()
         val then = Calendar.getInstance()
         then.timeInMillis = date
+        val pdate = PersianDate(date);
+        if (!prefs.shamsiDate.get()) {
+            return when {
+                now.isSameDay(then) -> getFormatter("h:mm a")
+                now.isSameYear(then) -> getFormatter("MMM d h:mm a")
+                else -> getFormatter("MMM d yyyy h:mm a")
+            }.format(date)
+        } else {
+            return when {
+                now.isSameDay(then) -> getPersianDateFormat('HH:mm');
+                now.isSameYear(then) -> getPersianDateFormat('F dd HH:mm');
+                else -> getPersianDateFormat('Y F dd HH:mm');
+            }.format(pdate)
+            
 
-        return when {
-            now.isSameDay(then) -> getFormatter("h:mm a")
-            now.isSameYear(then) -> getFormatter("MMM d h:mm a")
-            else -> getFormatter("MMM d yyyy h:mm a")
-        }.format(date)
+        }
     }
 
 }

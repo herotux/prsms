@@ -178,6 +178,7 @@ class SettingsController : QkController<SettingsView, SettingsState, SettingsPre
         autoColor.checkbox.isChecked = state.autoColor
 
         systemFont.checkbox.isChecked = state.systemFontEnabled
+        shamsiDate.checkbox.isChecked = state.shamsiDateEnabled
 
         unicode.checkbox.isChecked = state.stripUnicodeEnabled
         mobileOnly.checkbox.isChecked = state.mobileOnly

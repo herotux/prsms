@@ -196,6 +196,7 @@
     <string name="settings_automatic_colors_title">رنگ مخاطب خودکار</string>
     <string name="settings_text_size_title">اندازه قلم</string>
     <string name="settings_system_font_title">از فونت سیستم استفاده کن</string>
+    <string name="settings_shamsi_date_title">تقویم شمسی</string>
     <string name="settings_auto_emoji_title">شکلک خودکار</string>
     <string name="settings_notifications_title">اعلان‌ها</string>
     <string name="settings_notifications_o_summary">لمس برای شخصی سازی</string>
