@@ -192,6 +192,8 @@ class SettingsPresenter @Inject constructor(
 
                         R.id.systemFont -> prefs.systemFont.set(!prefs.systemFont.get())
 
+                        R.id.shamsiDate -> prefs.shamsiDate.set(!prefs.shamsiDate.get())
+
                         R.id.unicode -> prefs.unicode.set(!prefs.unicode.get())
 
                         R.id.mobileOnly -> prefs.mobileOnly.set(!prefs.mobileOnly.get())
