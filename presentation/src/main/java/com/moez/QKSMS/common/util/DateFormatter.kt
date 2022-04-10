@@ -58,7 +58,7 @@ class DateFormatter @Inject constructor(val context: Context) {
     }
 
     fun getDetailedTimestamp(date: Long): String {
-        val pdate = PersianDate(date);
+        val pdate = PersianDate(date)
         if (!prefs.shamsiDate.get()) {
             return getFormatter("M/d/y, h:mm:ss a").format(date)
         } else {
@@ -67,7 +67,7 @@ class DateFormatter @Inject constructor(val context: Context) {
     }
 
     fun getTimestamp(date: Long): String {
-        val pdate = PersianDate(date);
+        val pdate = PersianDate(date)
         if (!prefs.shamsiDate.get()) {
             return getFormatter("h:mm a").format(date)
         } else {
@@ -80,7 +80,7 @@ class DateFormatter @Inject constructor(val context: Context) {
         val now = Calendar.getInstance()
         val then = Calendar.getInstance()
         then.timeInMillis = date
-        val pdate = PersianDate(date);
+        val pdate = PersianDate(date)
 
         if (!prefs.shamsiDate.get()) {
             return when {
@@ -92,10 +92,10 @@ class DateFormatter @Inject constructor(val context: Context) {
             
         } else {
             return when {
-                now.isSameDay(then) -> getPersianDateFormat('HH:mm');
-                now.isSameWeek(then) -> getPersianDateFormat('l HH:mm');
-                now.isSameYear(then) -> getPersianDateFormat('F dd HH:mm');
-                else -> getPersianDateFormat('Y F dd HH:mm');
+                now.isSameDay(then) -> getPersianDateFormat("HH:mm")
+                now.isSameWeek(then) -> getPersianDateFormat("l HH:mm")
+                now.isSameYear(then) -> getPersianDateFormat("F dd HH:mm")
+                else -> getPersianDateFormat("Y F dd HH:mm")
             }.format(pdate)
             
 
@@ -108,7 +108,7 @@ class DateFormatter @Inject constructor(val context: Context) {
         val now = Calendar.getInstance()
         val then = Calendar.getInstance()
         then.timeInMillis = date
-        val pdate = PersianDate(date);
+        val pdate = PersianDate(date)
         if (!prefs.shamsiDate.get()) {
             return when {
                 now.isSameDay(then) -> getFormatter("h:mm a")
@@ -118,10 +118,10 @@ class DateFormatter @Inject constructor(val context: Context) {
             }.format(date)
         } else {
             return when {
-                now.isSameDay(then) -> getPersianDateFormat('HH:mm');
-                now.isSameWeek(then) -> getPersianDateFormat('l');
-                now.isSameYear(then) -> getPersianDateFormat('dd F');
-                else -> getPersianDateFormat('y/MM/dd HH:mm');
+                now.isSameDay(then) -> getPersianDateFormat("HH:mm")
+                now.isSameWeek(then) -> getPersianDateFormat("l")
+                now.isSameYear(then) -> getPersianDateFormat("dd F")
+                else -> getPersianDateFormat("y/MM/dd HH:mm")
             }.format(pdate)
             
 
@@ -133,7 +133,7 @@ class DateFormatter @Inject constructor(val context: Context) {
         val now = Calendar.getInstance()
         val then = Calendar.getInstance()
         then.timeInMillis = date
-        val pdate = PersianDate(date);
+        val pdate = PersianDate(date)
         if (!prefs.shamsiDate.get()) {
             return when {
                 now.isSameDay(then) -> getFormatter("h:mm a")
@@ -142,9 +142,9 @@ class DateFormatter @Inject constructor(val context: Context) {
             }.format(date)
         } else {
             return when {
-                now.isSameDay(then) -> getPersianDateFormat('HH:mm');
-                now.isSameYear(then) -> getPersianDateFormat('F dd HH:mm');
-                else -> getPersianDateFormat('Y F dd HH:mm');
+                now.isSameDay(then) -> getPersianDateFormat("HH:mm")
+                now.isSameYear(then) -> getPersianDateFormat("F dd HH:mm")
+                else -> getPersianDateFormat("Y F dd HH:mm")
             }.format(pdate)
             
 
