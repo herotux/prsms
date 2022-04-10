@@ -39,7 +39,7 @@ class DateFormatter @Inject constructor(val context: Context) {
      * Formats the [pattern] correctly for the current locale, and replaces 12 hour format with
      * 24 hour format if necessary
      */
-    private val prefs: Preferences
+    private lateinit val prefs: Preferences
     private fun getFormatter(pattern: String): SimpleDateFormat {
         var formattedPattern = DateFormat.getBestDateTimePattern(Locale.getDefault(), pattern)
 
