@@ -53,7 +53,7 @@ class DateFormatter @Inject constructor(val context: Context) {
 
     private fun getPersianDateFormat(pattern: String): PersianDateFormat {
         return PersianDateFormat(pattern)
-
+    }
 
     fun getDetailedTimestamp(date: Long): String {
         val pdate = PersianDate(date);
