@@ -30,6 +30,7 @@ import javax.inject.Singleton
 import com.moez.QKSMS.common.util.shamsicalendar.PersianDateFormat;
 import com.moez.QKSMS.common.util.shamsicalendar.PersianDate;
 import com.moez.QKSMS.common.util.shamsicalendar.LanguageUtils;
+import com.moez.QKSMS.util.Preferences
 
 @Singleton
 class DateFormatter @Inject constructor(val context: Context) {
@@ -38,6 +39,7 @@ class DateFormatter @Inject constructor(val context: Context) {
      * Formats the [pattern] correctly for the current locale, and replaces 12 hour format with
      * 24 hour format if necessary
      */
+    private val prefs: Preferences
     private fun getFormatter(pattern: String): SimpleDateFormat {
         var formattedPattern = DateFormat.getBestDateTimePattern(Locale.getDefault(), pattern)
 
