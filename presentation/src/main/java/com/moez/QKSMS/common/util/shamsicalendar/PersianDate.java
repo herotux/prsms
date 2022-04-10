@@ -5,7 +5,6 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
-import tw.nekomimi.nekogram.NekoConfig;
 
 public class PersianDate {
 
@@ -70,7 +69,6 @@ public class PersianDate {
     this.changeTime();
   }
 
-  public static boolean displayPersianCalendarByLatin = NekoConfig.displayPersianCalendarByLatin.Bool();
   
   /**
    * ---- Don not change---
@@ -199,28 +197,16 @@ public class PersianDate {
   }
 
   public String getPersianShortDate() {
-    if (displayPersianCalendarByLatin) {
-        return "" + formatToMilitary(this.getShYear()) + this.delimiter + formatToMilitary(getShMonth() + 1) + this.delimiter + formatToMilitary(this.getShDay());
-    } else {
-        return LanguageUtils.getPersianNumbers("" + formatToMilitary(this.getShYear()) + this.delimiter + formatToMilitary(this.getShMonth() + 1) + this.delimiter + formatToMilitary(this.getShDay()));
-    }
+    return LanguageUtils.getPersianNumbers("" + formatToMilitary(this.getShYear()) + this.delimiter + formatToMilitary(this.getShMonth() + 1) + this.delimiter + formatToMilitary(this.getShDay()));
   }
 
   public String getPersianNormalDate() {
-    if (displayPersianCalendarByLatin) {
-      return this.getShDay() + " " + this.monthNamesLatin() + " " + this.getShYear();
-    } else {
-      return LanguageUtils.getPersianNumbers(String.valueOf(this.getShDay())) + " " +  this.monthName() + " " + LanguageUtils.getPersianNumbers(String.valueOf(this.getShYear()));
-    }
+    return LanguageUtils.getPersianNumbers(String.valueOf(this.getShDay())) + " " +  this.monthName() + " " + LanguageUtils.getPersianNumbers(String.valueOf(this.getShYear()));
   }
 
   //like 9 شهریور
   public String getPersianMonthDay() {
-    if (displayPersianCalendarByLatin) {
-      return this.getShDay() + " " + this.monthNamesLatin();
-    } else {
-      return LanguageUtils.getPersianNumbers(String.valueOf(this.getShDay())) + " " + this.monthName();
-    }
+    return LanguageUtils.getPersianNumbers(String.valueOf(this.getShDay())) + " " + this.monthName();
   }
   /**
    * init without time
