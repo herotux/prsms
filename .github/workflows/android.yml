@@ -19,5 +19,8 @@ jobs:
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
+
+    - name: Download dependencies
+      run: ./gradlew androidDependencies
     - name: Build with Gradle
       run: ./gradlew :presentation:assembleWithAnalyticsRelease :presentation:bundleWithAnalyticsRelease
