@@ -23,4 +23,4 @@ jobs:
     - name: Download dependencies
       run: ./gradlew androidDependencies
     - name: Build with Gradle
-      run: ./gradlew :presentation:assembleWithAnalyticsRelease :presentation:bundleWithAnalyticsRelease
+      run: ./gradlew :presentation:gradlew.bat assembleDebug :presentation:bundleDebug
