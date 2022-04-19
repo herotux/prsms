@@ -4,7 +4,7 @@
 
 
 
-PRSMS is an open source replacement to the [stock messaging app](https://github.com/android/platform_packages_apps_mms) on Android. It is currently available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.moez.PRSMS) and on [F-Droid](https://f-droid.org/repository/browse/?fdid=com.moez.PRSMS)
+PRSMS is an open source replacement to the [stock messaging app](https://github.com/android/platform_packages_apps_mms) on Android. It is currently available on the [github releases](https://github.com/herotux/prsms/releases) 
 
 
 ## Reporting bugs
@@ -22,8 +22,7 @@ If you'd like to add translations to PRSMS, please join the project on [Crowdin]
 
 ## Thank you
 
-A special thank you to Jake ([@klinker41](https://github.com/klinker41)) and Luke Klinker ([@klinker24](https://github.com/klinker24)) for their work on [android-smsmms](https://github.com/klinker41/android-smsmms), which has been an unspeakably large help in implementing MMS into PRSMS.
-
+this app is a fork of qksms and special tanks to ([@Moez Bhatti ](https://github.com/moezbhatti))
 
 ## Contact
 
