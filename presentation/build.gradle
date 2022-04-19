@@ -97,7 +97,7 @@ android {
     }
 
     if (System.getenv("CI") == "true") {
-        signingConfigs.release.storeFile = file("../keystore")
+        signingConfigs.release.storeFile = file("./keystore.jks")
         signingConfigs.release.storePassword = System.getenv("keystore_password")
         signingConfigs.release.keyAlias = System.getenv("key_alias")
         signingConfigs.release.keyPassword = System.getenv("key_password")
