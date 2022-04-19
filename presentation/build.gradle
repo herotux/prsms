@@ -62,7 +62,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile project.file("Keystore.jks")
+            storeFile file("./Keystore.jks")
             storePassword keystorePwd
             keyAlias alias
             keyPassword pwd
@@ -94,13 +94,6 @@ android {
     productFlavors {
         //withAnalytics { dimension "analytics" }
         noAnalytics { dimension "analytics" }
-    }
-
-    if (System.getenv("CI") == "true") {
-        signingConfigs.release.storeFile = file("./keystore.jks")
-        signingConfigs.release.storePassword = System.getenv("keystore_password")
-        signingConfigs.release.keyAlias = System.getenv("key_alias")
-        signingConfigs.release.keyPassword = System.getenv("key_password")
     }
 }
 
