@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 Moez Bhatti <freetux.bhatti@gmail.com>
+ * Copyright (C) 2017 Freetux <thefreetux@gmail.com>
  *
  * This file is part of PRSMS.
  *
@@ -37,7 +37,7 @@ data class SettingsState(
     val signature: String = "",
     val textSizeSummary: String = "",
     val textSizeId: Int = Preferences.TEXT_SIZE_NORMAL,
-    val systemFontEnabled: Boolean = false,
+    val systemFontEnabled: Boolean = true,
     val shamsiDateEnabled: Boolean = false,
     val splitSmsEnabled: Boolean = false,
     val stripUnicodeEnabled: Boolean = false,

@@ -52,8 +52,10 @@ class QkMigration @Inject constructor(
 
         // Migrate from old SIA preference to blocking manager preference
         if (prefs.sia.get()) {
-            prefs.blockingManager.set(Preferences.BLOCKING_MANAGER_SIA)
-            prefs.sia.delete()
+            with(prefs) {
+                blockingManager.set(Preferences.BLOCKING_MANAGER_SIA)
+                sia.delete()
+            }
         }
 
         // Migrate blocked conversations into QK blocking client

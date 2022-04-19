@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2017 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2017 Freetux <thefreetux@gmail.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of PRSMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ PRSMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ PRSMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -30,7 +30,7 @@
         android:paddingTop="8dp"
         android:paddingBottom="8dp">
 
-        <com.moez.QKSMS.feature.blocking.manager.BlockingManagerPreferenceView
+        <com.freetux.PRSMS.feature.blocking.manager.BlockingManagerPreferenceView
             android:id="@+id/qksms"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
             app:title="@string/blocking_manager_qksms_title"
             app:widget="@layout/blocking_manager_list_option" />
 
-        <com.moez.QKSMS.feature.blocking.manager.BlockingManagerPreferenceView
+        <com.freetux.PRSMS.feature.blocking.manager.BlockingManagerPreferenceView
             android:id="@+id/callBlocker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             app:title="@string/blocking_manager_call_blocker_title"
             app:widget="@layout/blocking_manager_list_option" />
 
-        <com.moez.QKSMS.feature.blocking.manager.BlockingManagerPreferenceView
+        <com.freetux.PRSMS.feature.blocking.manager.BlockingManagerPreferenceView
             android:id="@+id/callControl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             app:title="@string/blocking_manager_call_control_title"
             app:widget="@layout/blocking_manager_list_option" />
 
-        <com.moez.QKSMS.feature.blocking.manager.BlockingManagerPreferenceView
+        <com.freetux.PRSMS.feature.blocking.manager.BlockingManagerPreferenceView
             android:id="@+id/shouldIAnswer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

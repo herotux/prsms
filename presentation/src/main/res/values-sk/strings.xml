@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2019 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2019 Freetux <thefreetux@gmail.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of PRSMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ PRSMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ PRSMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
     <string name="shortcut_compose_long_label">Nová konverzácia</string>
@@ -56,11 +56,11 @@
     <string name="archived_empty_text">Tu sa zobrazia vaše archivované konverzácie</string>
     <string name="main_fab_cd">Začať novú konverzáciu</string>
     <string name="main_default_sms_title">Opäť si zamilujte písanie</string>
-    <string name="main_default_sms_message">Nastavte QKSMS ako predvolenú SMS aplikáciu</string>
+    <string name="main_default_sms_message">Nastavte PRSMS ako predvolenú SMS aplikáciu</string>
     <string name="main_default_sms_change">Zmeniť</string>
     <string name="main_permission_required">Vyžadované povolenie</string>
-    <string name="main_permission_sms">QKSMS potrebuje povolenie posielať a zobrazovať správy SMS</string>
-    <string name="main_permission_contacts">QKSMS potrebuje povolenie na zobrazenie kontaktov</string>
+    <string name="main_permission_sms">PRSMS potrebuje povolenie posielať a zobrazovať správy SMS</string>
+    <string name="main_permission_contacts">PRSMS potrebuje povolenie na zobrazenie kontaktov</string>
     <string name="main_permission_allow">Povoliť</string>
     <string name="drawer_inbox">Doručené</string>
     <string name="drawer_archived">Archivované</string>
@@ -71,7 +71,7 @@
     <string name="drawer_help">Nápoveda &amp; spätná väzba</string>
     <string name="drawer_invite">Pozvať priateľov</string>
     <string name="drawer_plus_banner_summary">Odomknutie úžasné nové funkcie a podporte vývoj</string>
-    <string name="rate_title">Máte radi QKSMS?</string>
+    <string name="rate_title">Máte radi PRSMS?</string>
     <string name="rate_summary">Podeľte sa o trochu lásky a ohodnoťte nás na Google Play!</string>
     <string name="rate_okay">OUKEJ!</string>
     <string name="rate_dismiss">ODMIETNUŤ</string>
@@ -99,7 +99,7 @@
     <string name="compose_vcard_label">Karta kontaktu</string>
     <string name="compose_scheduled_for">Naplánované na</string>
     <string name="compose_scheduled_future">Vybraný čas musí ešte len nastať!</string>
-    <string name="compose_scheduled_plus">Ak si prajete používať plánovanie správ, aktivujte si QKSMS+</string>
+    <string name="compose_scheduled_plus">Ak si prajete používať plánovanie správ, aktivujte si PRSMS+</string>
     <string name="compose_scheduled_toast">Pridané do naplánovaných správ</string>
     <string name="compose_hint">Napíšte správu&#8230;</string>
     <string name="compose_menu_copy">Kopírovať text</string>
@@ -152,7 +152,7 @@
     <string name="backup_never">Nikdy</string>
     <string name="backup_restore_title">Obnoviť</string>
     <string name="backup_restore_summary">Zvoľte zálohu</string>
-    <string name="backup_restore_error_plus">Ak si prajete používať funkciu zálohovania a obnovy, prosím aktivujte si QKSMS+</string>
+    <string name="backup_restore_error_plus">Ak si prajete používať funkciu zálohovania a obnovy, prosím aktivujte si PRSMS+</string>
     <string name="backup_restore_error_backup">Prebieha zálohovanie&#8230;</string>
     <string name="backup_restore_error_restore">Prebieha obnova&#8230;</string>
     <string name="backup_restore_confirm_title">Obnoviť zo zálohy</string>
@@ -256,7 +256,7 @@
     <string name="settings_mms_size_title">Automaticky komprimovať MMS prílohy</string>
     <string name="settings_sync_title">Synchronizovať správy</string>
     <string name="settings_sync_summary">Opätovne synchronizovať vaše správy s natívnou SMS databázou</string>
-    <string name="settings_about_title">O aplikácii QKSMS</string>
+    <string name="settings_about_title">O aplikácii PRSMS</string>
     <string name="settings_version">Verzia %s</string>
     <string name="settings_logging_enabled">Ladiace záznamy povolené</string>
     <string name="settings_logging_disabled">Ladiace záznamy vypnuté</string>
@@ -266,8 +266,8 @@
     <string name="blocking_drop_summary">Zahodiť prichádzajúce správy od blokovaných odosielateľov namiesto ich skrytia.</string>
     <string name="blocking_conversations">Blokované konverzácie</string>
     <string name="blocking_manager_title">Správca blokovaní</string>
-    <string name="blocking_manager_qksms_title">QKSMS</string>
-    <string name="blocking_manager_qksms_summary">Vstavané blokovanie v QKSMS</string>
+    <string name="blocking_manager_qksms_title">PRSMS</string>
+    <string name="blocking_manager_qksms_summary">Vstavané blokovanie v PRSMS</string>
     <string name="blocking_manager_call_blocker_summary">Block spam messages, numbers &amp; unknown calls with blacklist &amp; Schedule</string>
     <string name="blocking_manager_call_control_summary">Automaticky filtrujte svoje hovory a správy na jednom mieste! Community IQ™ vám poskytuje ochranu pred spamom od komunitou označených spammerov.</string>
     <string name="blocking_manager_sia_summary">Automaticky filtrovať správy od nevyžiadaných čísiel pomocou aplikácie \"Should I Answer?\"</string>
@@ -309,11 +309,11 @@
     <string name="qksms_plus_upgrade">Doživotná aktivácia za %1$s %2$s</string>
     <!-- Substitutions are for price and currency. Ex: Unlock + donate for $4.99 USD -->
     <string name="qksms_plus_upgrade_donate">Odomknúť + darovať za %1$s %2$s</string>
-    <string name="qksms_plus_thanks_title">Ďakujeme, že ste podporili  QKSMS!</string>
-    <string name="qksms_plus_thanks_summary">Odteraz máte prístup ku všetkým QKSMS+ funkciám</string>
+    <string name="qksms_plus_thanks_title">Ďakujeme, že ste podporili  PRSMS!</string>
+    <string name="qksms_plus_thanks_summary">Odteraz máte prístup ku všetkým PRSMS+ funkciám</string>
     <string name="qksms_plus_error">An error has occurred, please try again</string>
-    <string name="qksms_plus_free_title">QKSMS+ je zdarma pre používateľov F-Droid! Ak si prajete podporiť vývoj, neváhajte prispieť.</string>
-    <string name="qksms_plus_donate">Prispieť cez PayPal</string>
+    <string name="qksms_plus_free_title">PRSMS+ je zdarma pre používateľov F-Droid! Ak si prajete podporiť vývoj, neváhajte prispieť.</string>
+    <string name="qksms_plus_donate">Prispieť cez IDPay</string>
     <string name="qksms_plus_coming_soon">Už čoskoro</string>
     <string name="qksms_plus_themes_title">Prémiové témy</string>
     <string name="qksms_plus_themes_summary">Odomknúť nádherné farebné témy, ktoré nie sú dostupné v Material Design palete </string>
@@ -334,7 +334,7 @@
     <string name="qksms_plus_respond_title">Automatická odpoveď</string>
     <string name="qksms_plus_respond_summary">Automaticky odpovedať na príchodzie správy s prednastavenou odpoveďou</string>
     <string name="qksms_plus_more_title">Viac</string>
-    <string name="qksms_plus_more_summary">QKSMS je v aktívnom vývoji a váš nákup bude obsahovať aj všetky budúce QKSMS+ funkcie!</string>
+    <string name="qksms_plus_more_summary">PRSMS je v aktívnom vývoji a váš nákup bude obsahovať aj všetky budúce PRSMS+ funkcie!</string>
     <string name="widget_loading">Načítavanie&#8230;</string>
     <string name="widget_more">Zobraziť viacej konverácií</string>
     <string name="qkreply_menu_read">Označiť ako prečítané</string>
@@ -366,7 +366,7 @@
     <string name="button_undo">Vrátiť späť</string>
     <string name="toast_copied">Skopírované</string>
     <string name="toast_archived">Archivované konverzácie</string>
-    <string name="toast_qksms_plus">Pre použitie aktivujte QKSMS+</string>
+    <string name="toast_qksms_plus">Pre použitie aktivujte PRSMS+</string>
     <plurals name="notification_new_messages">
         <item quantity="one">Nová správa</item>
         <item quantity="few">%s nové správy</item>

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 Moez Bhatti <freetux.bhatti@gmail.com>
+ * Copyright (C) 2017 Freetux <thefreetux@gmail.com>
  *
  * This file is part of PRSMS.
  *
@@ -142,22 +142,22 @@ class Navigator @Inject constructor(
     }
 
     fun showDeveloper() {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/moezbhatti"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/herotux"))
         startActivityExternal(intent)
     }
 
     fun showSourceCode() {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/moezbhatti/qksms"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/herotux/prsms"))
         startActivityExternal(intent)
     }
 
     fun showChangelog() {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/moezbhatti/qksms/releases"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/herotux/prsms/releases"))
         startActivityExternal(intent)
     }
 
     fun showLicense() {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/moezbhatti/qksms/blob/master/LICENSE"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/herotux/prsms/blob/main/LICENSE"))
         startActivityExternal(intent)
     }
 
@@ -173,7 +173,7 @@ class Navigator @Inject constructor(
     }
 
     fun showDonation() {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://bit.ly/QKSMSDonation"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://idpay.ir/prsms"))
         startActivityExternal(intent)
     }
 
@@ -186,7 +186,7 @@ class Navigator @Inject constructor(
         try {
             startActivityExternal(intent)
         } catch (e: ActivityNotFoundException) {
-            val url = "http://play.google.com/store/apps/details?id=com.moez.QKSMS"
+            val url = "http://play.google.com/store/apps/details?id=com.moez.PRSMS"
             startActivityExternal(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
         }
     }
@@ -221,7 +221,7 @@ class Navigator @Inject constructor(
     fun showSupport() {
         val intent = Intent(Intent.ACTION_SENDTO)
         intent.data = Uri.parse("mailto:")
-        intent.putExtra(Intent.EXTRA_EMAIL, arrayOf("freetux@qklabs.com"))
+        intent.putExtra(Intent.EXTRA_EMAIL, arrayOf("thefreetux@gmail.com"))
         intent.putExtra(Intent.EXTRA_SUBJECT, "PRSMS Support")
         intent.putExtra(Intent.EXTRA_TEXT, StringBuilder("\n\n")
                 .append("\n\n--- Please write your message above this line ---\n\n")

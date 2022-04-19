@@ -16,6 +16,7 @@
 
 package com.android.mms.transaction;
 
+import android.annotation.SuppressLint;
 import android.app.Service;
 import android.content.BroadcastReceiver;
 import android.content.ContentUris;
@@ -482,6 +483,7 @@ public class TransactionService extends Service implements Observer {
         }
     }
 
+    @SuppressLint("InvalidWakeLockTag")
     private synchronized void createWakeLock() {
         // Create a new wake lock if we haven't made one yet.
         if (mWakeLock == null) {
@@ -519,8 +521,15 @@ public class TransactionService extends Service implements Observer {
             }
         }
 
-        int result = mConnMgr.startUsingNetworkFeature(ConnectivityManager.TYPE_MOBILE, "enableMMS");
 
+        int result = 0;
+        try {
+            java.lang.reflect.Method method = mConnMgr.getClass().getMethod("startUsingNetworkFeature",
+                    int.class, String.class);
+            result = (int) method.invoke(ConnectivityManager.TYPE_MOBILE, "enableMMS");
+        } catch (Exception e) {
+            //Do something
+        }
         Timber.v("beginMmsConnectivity: result=" + result);
 
         switch (result) {
@@ -540,9 +549,13 @@ public class TransactionService extends Service implements Observer {
             // cancel timer for renewal of lease
             mServiceHandler.removeMessages(EVENT_CONTINUE_MMS_CONNECTIVITY);
             if (mConnMgr != null && Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-                mConnMgr.stopUsingNetworkFeature(
-                        ConnectivityManager.TYPE_MOBILE,
-                        "enableMMS");
+                try{
+                    java.lang.reflect.Method method = mConnMgr.getClass().getMethod("stopUsingNetworkFeature",
+                            int.class, String.class);
+                    method.invoke(ConnectivityManager.TYPE_MOBILE, "enableMMS");
+                } catch (Exception e) {
+                    //Do something
+                }
             }
         } finally {
             releaseWakeLock();

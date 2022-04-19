@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2019 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2019 Freetux <thefreetux@gmail.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of PRSMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ PRSMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ PRSMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
     <string name="shortcut_compose_long_label">新しい会話</string>
@@ -56,7 +56,7 @@
     <string name="archived_empty_text">保存した会話がここに表示されます</string>
     <string name="main_fab_cd">新しい会話を開始します。</string>
     <string name="main_default_sms_title">もう一度テキストメッセージが大好き</string>
-    <string name="main_default_sms_message">QKSMS を既定の SMS アプリに設定する</string>
+    <string name="main_default_sms_message">PRSMS を既定の SMS アプリに設定する</string>
     <string name="main_default_sms_change">変更</string>
     <string name="main_permission_required">必要なアクセス許可</string>
     <string name="main_permission_sms">QKSMSはSMSメッセージを送信および表示する権限を必要とします</string>
@@ -71,7 +71,7 @@
     <string name="drawer_help">ヘルプとフィードバック</string>
     <string name="drawer_invite">友達を招待する</string>
     <string name="drawer_plus_banner_summary">驚くべき新機能のロックを解除し、開発をサポート</string>
-    <string name="rate_title">QKSMS をお楽みいただいていますか?</string>
+    <string name="rate_title">PRSMS をお楽みいただいていますか?</string>
     <string name="rate_summary">Google Play で愛を共有して私たちを評価してください!</string>
     <string name="rate_okay">OK!</string>
     <string name="rate_dismiss">免じる</string>
@@ -96,7 +96,7 @@
     <string name="compose_vcard_label">連絡先カード</string>
     <string name="compose_scheduled_for">予定されている</string>
     <string name="compose_scheduled_future">選択した時間は、将来的にする必要があります!</string>
-    <string name="compose_scheduled_plus">あなたのロックを解除する必要があります QKSMS + スケジュールされたメッセージングを使用するには</string>
+    <string name="compose_scheduled_plus">あなたのロックを解除する必要があります PRSMS + スケジュールされたメッセージングを使用するには</string>
     <string name="compose_scheduled_toast">スケジュールされたメッセージに追加</string>
     <string name="compose_hint">メッセージを書く&#8230;</string>
     <string name="compose_menu_copy">テキストのコピー</string>
@@ -247,7 +247,7 @@
     <string name="settings_mms_size_title">MMS添付ファイルの自動圧縮</string>
     <string name="settings_sync_title">メッセージを同期</string>
     <string name="settings_sync_summary">メッセージをネイティブの Android SMS データベースと再同期します</string>
-    <string name="settings_about_title">QKSMS について</string>
+    <string name="settings_about_title">PRSMS について</string>
     <string name="settings_version">バージョン %s</string>
     <string name="settings_logging_enabled">デバッグログが有効</string>
     <string name="settings_logging_disabled">デバッグログを無効にする</string>
@@ -257,8 +257,8 @@
     <string name="blocking_drop_summary">ブロックした送信者からの受信メッセージを非表示にする代わりにドロップします</string>
     <string name="blocking_conversations">ブロックした会話</string>
     <string name="blocking_manager_title">ブロッキングマネージャー</string>
-    <string name="blocking_manager_qksms_title">QKSMS</string>
-    <string name="blocking_manager_qksms_summary">QKSMS の内蔵ブロック機能</string>
+    <string name="blocking_manager_qksms_title">PRSMS</string>
+    <string name="blocking_manager_qksms_summary">PRSMS の内蔵ブロック機能</string>
     <string name="blocking_manager_call_blocker_summary">ブラックリストとスケジュールにより迷惑メッセージ、番号、不明な通話をブロック</string>
     <string name="blocking_manager_call_control_summary">一か所で便利に通話とメッセージを自動的にフィルタリングします! Community IQ™を使用すると、コミュニティで知られているスパマーからの不要なメッセージを防ぐことができます</string>
     <string name="blocking_manager_sia_summary">\"Should I Answer\" アプリを使用して、迷惑な番号からのメッセージを自動的にフィルタします</string>
@@ -294,11 +294,11 @@
     <string name="qksms_plus_upgrade">%1$s %2$s のライフタイムのアップグレード</string>
     <!-- Substitutions are for price and currency. Ex: Unlock + donate for $4.99 USD -->
     <string name="qksms_plus_upgrade_donate">%1$s %2$s のロック解除と寄付</string>
-    <string name="qksms_plus_thanks_title">QKSMS を支援いただきありがとうございます!</string>
-    <string name="qksms_plus_thanks_summary">QKSMS+ のすべての機能にアクセスできます</string>
+    <string name="qksms_plus_thanks_title">PRSMS を支援いただきありがとうございます!</string>
+    <string name="qksms_plus_thanks_summary">PRSMS+ のすべての機能にアクセスできます</string>
     <string name="qksms_plus_error">エラーが発生しました。もう一度やり直してください</string>
-    <string name="qksms_plus_free_title">QKSMS+ は F-Droid ユーザーは無料です! 開発をサポートしたい場合は、気軽に寄付をしてください。</string>
-    <string name="qksms_plus_donate">PayPal で寄付する</string>
+    <string name="qksms_plus_free_title">PRSMS+ は F-Droid ユーザーは無料です! 開発をサポートしたい場合は、気軽に寄付をしてください。</string>
+    <string name="qksms_plus_donate">IDPay で寄付する</string>
     <string name="qksms_plus_coming_soon">近日登場</string>
     <string name="qksms_plus_themes_title">プレミアムテーマ</string>
     <string name="qksms_plus_themes_summary">マテリアルデザインパレットで利用できない美しいテーマカラーのロックを解除します</string>
@@ -351,7 +351,7 @@
     <string name="button_undo">元に戻す</string>
     <string name="toast_copied">コピーしました</string>
     <string name="toast_archived">会話をアーカイブしました</string>
-    <string name="toast_qksms_plus">これを使用するには QKSMS+ のロックを解除する必要があります</string>
+    <string name="toast_qksms_plus">これを使用するには PRSMS+ のロックを解除する必要があります</string>
     <plurals name="notification_new_messages">
         <item quantity="other">%s 新着メッセージ</item>
     </plurals>

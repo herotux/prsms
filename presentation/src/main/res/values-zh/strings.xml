@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2019 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2019 Freetux <thefreetux@gmail.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of PRSMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ PRSMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ PRSMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
     <string name="shortcut_compose_long_label">新對話</string>
@@ -71,7 +71,7 @@
     <string name="drawer_help">幫助與反饋</string>
     <string name="drawer_invite">邀請朋友</string>
     <string name="drawer_plus_banner_summary">解鎖驚人的新特性並支持開發</string>
-    <string name="rate_title">喜歡 QKSMS？</string>
+    <string name="rate_title">喜歡 PRSMS？</string>
     <string name="rate_summary">在 Google Play 分享您的感受，並給我們評分！</string>
     <string name="rate_okay">好！</string>
     <string name="rate_dismiss">放棄</string>
@@ -96,7 +96,7 @@
     <string name="compose_vcard_label">連絡人卡片</string>
     <string name="compose_scheduled_for">排程於</string>
     <string name="compose_scheduled_future">所選時間必須是未來時間</string>
-    <string name="compose_scheduled_plus">您必須解鎖 QKSMS+ 以使用排程簡訊</string>
+    <string name="compose_scheduled_plus">您必須解鎖 PRSMS+ 以使用排程簡訊</string>
     <string name="compose_scheduled_toast">已新增至排程訊息</string>
     <string name="compose_hint">寫一條訊息...</string>
     <string name="compose_menu_copy">複製文本</string>
@@ -149,7 +149,7 @@
     <string name="backup_never">從未備份</string>
     <string name="backup_restore_title">還原</string>
     <string name="backup_restore_summary">選擇備份</string>
-    <string name="backup_restore_error_plus">請解鎖 QKSMS+ 以使用備份和還原功能</string>
+    <string name="backup_restore_error_plus">請解鎖 PRSMS+ 以使用備份和還原功能</string>
     <string name="backup_restore_error_backup">正在進行備份&#8230;</string>
     <string name="backup_restore_error_restore">正在進行還原&#8230;</string>
     <string name="backup_restore_confirm_title">從備份還原</string>
@@ -257,7 +257,7 @@
     <string name="blocking_drop_summary">直接刪除封鎖的簡訊，而非只有隱藏簡訊</string>
     <string name="blocking_conversations">封鎖的對話</string>
     <string name="blocking_manager_title">封鎖管理器</string>
-    <string name="blocking_manager_qksms_title">QKSMS</string>
+    <string name="blocking_manager_qksms_title">PRSMS</string>
     <string name="blocking_manager_qksms_summary">QKSMS內建封鎖功能</string>
     <string name="blocking_manager_call_blocker_summary">Block spam messages, numbers &amp; unknown calls with blacklist &amp; Schedule</string>
     <string name="blocking_manager_call_control_summary">自動過濾來電與簡訊！群眾智慧Community IQ™能讓你遠離不想要的垃圾簡訊</string>
@@ -294,11 +294,11 @@
     <string name="qksms_plus_upgrade">終身升級只需 %1$s %2$s</string>
     <!-- Substitutions are for price and currency. Ex: Unlock + donate for $4.99 USD -->
     <string name="qksms_plus_upgrade_donate">解鎖並捐贈只需 %1$s %2$s</string>
-    <string name="qksms_plus_thanks_title">感謝您對 QKSMS 的支持！</string>
-    <string name="qksms_plus_thanks_summary">現在您可以使用 QKSMS+ 的全部功能！</string>
+    <string name="qksms_plus_thanks_title">感謝您對 PRSMS 的支持！</string>
+    <string name="qksms_plus_thanks_summary">現在您可以使用 PRSMS+ 的全部功能！</string>
     <string name="qksms_plus_error">An error has occurred, please try again</string>
-    <string name="qksms_plus_free_title">QKSMS+對F-Droid用戶免費！如果您想支持開發，可以隨意捐款。</string>
-    <string name="qksms_plus_donate">使用PayPal捐贈</string>
+    <string name="qksms_plus_free_title">PRSMS+對F-Droid用戶免費！如果您想支持開發，可以隨意捐款。</string>
+    <string name="qksms_plus_donate">使用IDPay捐贈</string>
     <string name="qksms_plus_coming_soon">即將推出</string>
     <string name="qksms_plus_themes_title">高級主題</string>
     <string name="qksms_plus_themes_summary">解鎖 \"Material Design\" 調色板中不可用的美麗彩色主題</string>
@@ -319,7 +319,7 @@
     <string name="qksms_plus_respond_title">自動回覆</string>
     <string name="qksms_plus_respond_summary">使用預設回應自動回覆傳入郵件</string>
     <string name="qksms_plus_more_title">更多</string>
-    <string name="qksms_plus_more_summary">QKSMS 正在積極開發中，您的購買將包含後續 QKSMS+ 的所有功能！</string>
+    <string name="qksms_plus_more_summary">PRSMS 正在積極開發中，您的購買將包含後續 PRSMS+ 的所有功能！</string>
     <string name="widget_loading">載入中...</string>
     <string name="widget_more">查看更多對話</string>
     <string name="qkreply_menu_read">標示已讀</string>

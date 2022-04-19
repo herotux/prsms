@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2019 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2019 Freetux <thefreetux@gmail.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of PRSMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ PRSMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ PRSMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
     <string name="shortcut_compose_long_label">Nov pogovor</string>
@@ -56,11 +56,11 @@
     <string name="archived_empty_text">Vaši arhivirani pogovori se bodo pojavili tukaj</string>
     <string name="main_fab_cd">Začni nov pogovor</string>
     <string name="main_default_sms_title">Znova vzljubite sporočanje</string>
-    <string name="main_default_sms_message">Napravi QKSMS privzet program za sporočanje</string>
+    <string name="main_default_sms_message">Napravi PRSMS privzet program za sporočanje</string>
     <string name="main_default_sms_change">Spremeni</string>
     <string name="main_permission_required">Potrebno dovoljenje</string>
-    <string name="main_permission_sms">QKSMS potrebuje dovoljenje za pošiljanje in branje SMS sporočil</string>
-    <string name="main_permission_contacts">QKSMS potrebuje dovoljenje za dostop do stikov</string>
+    <string name="main_permission_sms">PRSMS potrebuje dovoljenje za pošiljanje in branje SMS sporočil</string>
+    <string name="main_permission_contacts">PRSMS potrebuje dovoljenje za dostop do stikov</string>
     <string name="main_permission_allow">Dovoli</string>
     <string name="drawer_inbox">Prejeto</string>
     <string name="drawer_archived">Arhiv</string>
@@ -71,7 +71,7 @@
     <string name="drawer_help">Pošlji povratne informacije</string>
     <string name="drawer_invite">Povabi prijatelje</string>
     <string name="drawer_plus_banner_summary">Odkleni neverjetne nove funkcije in podpri razvoj</string>
-    <string name="rate_title">Uživate v QKSMS?</string>
+    <string name="rate_title">Uživate v PRSMS?</string>
     <string name="rate_summary">Deli nekaj ljubezni in nas oceni na Google Play!</string>
     <string name="rate_okay">V REDU!</string>
     <string name="rate_dismiss">OPUSTI</string>
@@ -99,7 +99,7 @@
     <string name="compose_vcard_label">Kontaktna kartica</string>
     <string name="compose_scheduled_for">Načrtovano za</string>
     <string name="compose_scheduled_future">Izbran čas mora biti v prihodnosti!</string>
-    <string name="compose_scheduled_plus">Da lahko uporabiš načrtovano sporočanje, moraš odkleniti QKSMS+</string>
+    <string name="compose_scheduled_plus">Da lahko uporabiš načrtovano sporočanje, moraš odkleniti PRSMS+</string>
     <string name="compose_scheduled_toast">Dodano k načrtovanim sporočilom</string>
     <string name="compose_hint">Napiši sporočilo&#8230;</string>
     <string name="compose_menu_copy">Kopiraj besedilo</string>
@@ -152,7 +152,7 @@
     <string name="backup_never">Nikoli</string>
     <string name="backup_restore_title">Obnovi</string>
     <string name="backup_restore_summary">Izberi varnostno kopijo</string>
-    <string name="backup_restore_error_plus">Prosimo odklenite QKSMS+ da omogočite uporabo varnostnih kopij in njihove obnove</string>
+    <string name="backup_restore_error_plus">Prosimo odklenite PRSMS+ da omogočite uporabo varnostnih kopij in njihove obnove</string>
     <string name="backup_restore_error_backup">Varnostna kopija se izvaja&#8230;</string>
     <string name="backup_restore_error_restore">Obnavljanje varnostne kopije se izvaja&#8230;</string>
     <string name="backup_restore_confirm_title">Obnovi iz varnotsne kopije</string>
@@ -256,7 +256,7 @@
     <string name="settings_mms_size_title">Samodejno stisni MMS priponke</string>
     <string name="settings_sync_title">Sinhroniziraj sporočila</string>
     <string name="settings_sync_summary">Znova sinhroniziraj sporočila s sistemsko SMS bazo</string>
-    <string name="settings_about_title">Več o QKSMS</string>
+    <string name="settings_about_title">Več o PRSMS</string>
     <string name="settings_version">Različica %s</string>
     <string name="settings_logging_enabled">Beleženje dnevnika za odpravljanje napak omogočeno</string>
     <string name="settings_logging_disabled">Beleženje dnevnika za odpravljanje napak onemogočeno</string>
@@ -266,8 +266,8 @@
     <string name="blocking_drop_summary">Opusti prihajajoča sporočila blokiranih pošiljateljev, namesto da jih skriješ</string>
     <string name="blocking_conversations">Blokirani pogovori</string>
     <string name="blocking_manager_title">Upravljalnik Blokiranja</string>
-    <string name="blocking_manager_qksms_title">QKSMS</string>
-    <string name="blocking_manager_qksms_summary">Vgrajena sposobnost blokiranja v QKSMS</string>
+    <string name="blocking_manager_qksms_title">PRSMS</string>
+    <string name="blocking_manager_qksms_summary">Vgrajena sposobnost blokiranja v PRSMS</string>
     <string name="blocking_manager_call_blocker_summary">Block spam messages, numbers &amp; unknown calls with blacklist &amp; Schedule</string>
     <string name="blocking_manager_call_control_summary">Samodejno razvrstite vaše klice in sporočila v eno priročno mesto! Skupnostni IQ™ omogoča, da preprečite prejemanje sporočil pošiljateljev neželenih sporočil, kateri so skupnosti poznani</string>
     <string name="blocking_manager_sia_summary">Samodejno razvrstite sporočila neželenih številk tako, da uporabiš \"Should I Answer\" aplikacijo</string>
@@ -309,11 +309,11 @@
     <string name="qksms_plus_upgrade">Doživljenjska nadgradnja za %1$s %2$s</string>
     <!-- Substitutions are for price and currency. Ex: Unlock + donate for $4.99 USD -->
     <string name="qksms_plus_upgrade_donate">Odkleni + doniraj za %1$s %2$s</string>
-    <string name="qksms_plus_thanks_title">Hvala da podpirate QKSMS!</string>
-    <string name="qksms_plus_thanks_summary">Zdaj imate dostop do vseh QKSMS+ funkcij</string>
+    <string name="qksms_plus_thanks_title">Hvala da podpirate PRSMS!</string>
+    <string name="qksms_plus_thanks_summary">Zdaj imate dostop do vseh PRSMS+ funkcij</string>
     <string name="qksms_plus_error">An error has occurred, please try again</string>
-    <string name="qksms_plus_free_title">QKSMS+ je brezplačen za F-Droid uporabnike! Če želite podpirati razvoj, so donacije zelo dobrodošle.</string>
-    <string name="qksms_plus_donate">Doniraj preko PayPal</string>
+    <string name="qksms_plus_free_title">PRSMS+ je brezplačen za F-Droid uporabnike! Če želite podpirati razvoj, so donacije zelo dobrodošle.</string>
+    <string name="qksms_plus_donate">Doniraj preko IDPay</string>
     <string name="qksms_plus_coming_soon">Prihaja kmalu</string>
     <string name="qksms_plus_themes_title">Premium teme</string>
     <string name="qksms_plus_themes_summary">Odkleni čudovite barve tem, ki niso vidne na paleti materialnega dizajna</string>
@@ -334,7 +334,7 @@
     <string name="qksms_plus_respond_title">Samodejen odgovor</string>
     <string name="qksms_plus_respond_summary">Samodejno odgovori na prihajajoča sporočila s prednastavljenim sporočilom</string>
     <string name="qksms_plus_more_title">Več</string>
-    <string name="qksms_plus_more_summary">QKSMS je pod aktivnim razvojem in vaš nakup QKSMS+ bo vseboval vse prihodnje funkcije!</string>
+    <string name="qksms_plus_more_summary">PRSMS je pod aktivnim razvojem in vaš nakup PRSMS+ bo vseboval vse prihodnje funkcije!</string>
     <string name="widget_loading">Nalaganje&#8230;</string>
     <string name="widget_more">Poglej več pogovorov</string>
     <string name="qkreply_menu_read">Mark read</string>
@@ -366,7 +366,7 @@
     <string name="button_undo">Razveljavi</string>
     <string name="toast_copied">Kopirano</string>
     <string name="toast_archived">Arhivirani pogovori</string>
-    <string name="toast_qksms_plus">Da uporabiš to, moraš odkleniti QKSMS+</string>
+    <string name="toast_qksms_plus">Da uporabiš to, moraš odkleniti PRSMS+</string>
     <plurals name="notification_new_messages">
         <item quantity="one">Novo sporočilo</item>
         <item quantity="two">%s novi sporočili</item>

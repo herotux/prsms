@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 Moez Bhatti <freetux.bhatti@gmail.com>
+ * Copyright (C) 2017 Freetux <thefreetux@gmail.com>
  *
  * This file is part of PRSMS.
  *
@@ -18,6 +18,7 @@
  */
 package com.freetux.PRSMS.feature.compose
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.net.Uri
 import android.os.Vibrator
@@ -227,6 +228,7 @@ class ComposeViewModel @Inject constructor(
         }.subscribe()
     }
 
+    @SuppressLint("StringFormatInvalid")
     override fun bindView(view: ComposeView) {
         super.bindView(view)
 

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 Moez Bhatti <freetux.bhatti@gmail.com>
+ * Copyright (C) 2017 Freetux <thefreetux@gmail.com>
  *
  * This file is part of PRSMS.
  *
@@ -100,8 +100,8 @@ class MainViewModel @Inject constructor(
                 .subscribe { upgraded -> newState { copy(upgraded = upgraded) } }
 
         // Show the rating UI
-        disposables += ratingManager.shouldShowRating
-                .subscribe { show -> newState { copy(showRating = show) } }
+        // disposables += ratingManager.shouldShowRating
+        //        .subscribe { show -> newState { copy(showRating = show) } }
 
 
         // Migrate the preferences from 2.7.3

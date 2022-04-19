@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2017 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2017 Freetux <thefreetux@gmail.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of PRSMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ PRSMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ PRSMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.moez.QKSMS">
+    package="com.freetux.PRSMS">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -33,12 +33,17 @@
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_SMS" />
 
     <application
-        android:name=".common.QKApplication"
+        android:name="com.freetux.PRSMS.common.QKApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -47,7 +52,7 @@
         android:theme="@style/AppLaunchTheme">
 
         <activity
-            android:name=".feature.main.MainActivity"
+            android:name="com.freetux.PRSMS.feature.main.MainActivity"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,8 +63,8 @@
                 android:resource="@xml/shortcuts" />
         </activity>
         <activity
-            android:name=".feature.compose.ComposeActivity"
-            android:parentActivityName=".feature.main.MainActivity">
+            android:name="com.freetux.PRSMS.feature.compose.ComposeActivity"
+            android:parentActivityName="com.freetux.PRSMS.feature.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.MAIN" />
@@ -100,95 +105,95 @@
                 android:name="android.service.chooser.chooser_target_service"
                 android:value=".common.util.QkChooserTargetService" />
         </activity>
-        <activity android:name=".feature.settings.SettingsActivity" />
-        <activity android:name=".feature.plus.PlusActivity" />
+        <activity android:name="com.freetux.PRSMS.feature.settings.SettingsActivity" />
+        <activity android:name="com.freetux.PRSMS.feature.plus.PlusActivity" />
         <activity
-            android:name=".feature.gallery.GalleryActivity"
+            android:name="com.freetux.PRSMS.feature.gallery.GalleryActivity"
             android:theme="@style/AppTheme.Black" />
-        <activity android:name=".feature.conversationinfo.ConversationInfoActivity" />
-        <activity android:name=".feature.notificationprefs.NotificationPrefsActivity" />
-        <activity android:name=".feature.blocking.BlockingActivity" />
+        <activity android:name="com.freetux.PRSMS.feature.conversationinfo.ConversationInfoActivity" />
+        <activity android:name="com.freetux.PRSMS.feature.notificationprefs.NotificationPrefsActivity" />
+        <activity android:name="com.freetux.PRSMS.feature.blocking.BlockingActivity" />
         <activity
-            android:name=".feature.qkreply.QkReplyActivity"
+            android:name="com.freetux.PRSMS.feature.qkreply.QkReplyActivity"
             android:excludeFromRecents="true"
             android:taskAffinity=""
             android:theme="@style/AppThemeDialog"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".feature.scheduled.ScheduledActivity" />
-        <activity android:name=".feature.backup.BackupActivity" />
-        <activity android:name=".feature.contacts.ContactsActivity" />
+        <activity android:name="com.freetux.PRSMS.feature.scheduled.ScheduledActivity" />
+        <activity android:name="com.freetux.PRSMS.feature.backup.BackupActivity" />
+        <activity android:name="com.freetux.PRSMS.feature.contacts.ContactsActivity" />
 
-        <receiver android:name=".receiver.BootReceiver">
+        <receiver android:name="com.freetux.PRSMS.receiver.BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".receiver.DefaultSmsChangedReceiver">
+        <receiver android:name="com.freetux.PRSMS.receiver.DefaultSmsChangedReceiver">
             <intent-filter>
                 <action android:name="android.provider.action.DEFAULT_SMS_PACKAGE_CHANGED" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".receiver.DeleteMessagesReceiver" />
+        <receiver android:name="com.freetux.PRSMS.receiver.DeleteMessagesReceiver" />
         <receiver
-            android:name=".receiver.SmsReceiver"
+            android:name="com.freetux.PRSMS.receiver.SmsReceiver"
             android:permission="android.permission.BROADCAST_SMS">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_DELIVER" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".receiver.MmsReceiver"
+            android:name="com.freetux.PRSMS.receiver.MmsReceiver"
             android:permission="android.permission.BROADCAST_WAP_PUSH">
             <intent-filter>
                 <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
                 <data android:mimeType="application/vnd.wap.mms-message" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".receiver.SmsSentReceiver" />
-        <receiver android:name=".receiver.SmsDeliveredReceiver" />
+        <receiver android:name="com.freetux.PRSMS.receiver.SmsSentReceiver" />
+        <receiver android:name="com.freetux.PRSMS.receiver.SmsDeliveredReceiver" />
         <receiver
-            android:name=".receiver.MmsSentReceiver"
-            android:taskAffinity="com.moez.QKSMS.MMS_SENT" />
+            android:name="com.freetux.PRSMS.receiver.MmsSentReceiver"
+            android:taskAffinity="com.freetux.PRSMS.MMS_SENT" />
         <receiver
-            android:name=".receiver.MmsUpdatedReceiver"
-            android:taskAffinity="com.moez.QKSMS.MMS_UPDATED" />
+            android:name="com.freetux.PRSMS.receiver.MmsUpdatedReceiver"
+            android:taskAffinity="com.freetux.PRSMS.MMS_UPDATED" />
         <receiver
-            android:name=".receiver.MmsReceivedReceiver"
+            android:name="com.freetux.PRSMS.receiver.MmsReceivedReceiver"
             android:taskAffinity="com.klinker.android.messaging.MMS_RECEIVED" />
-        <receiver android:name=".receiver.MarkArchivedReceiver" />
-        <receiver android:name=".receiver.BlockThreadReceiver" />
-        <receiver android:name=".receiver.MarkSeenReceiver" />
-        <receiver android:name=".receiver.MarkReadReceiver" />
-        <receiver android:name=".receiver.RemoteMessagingReceiver" />
-        <receiver android:name=".receiver.NightModeReceiver" />
-        <receiver android:name=".receiver.SmsProviderChangedReceiver">
+        <receiver android:name="com.freetux.PRSMS.receiver.MarkArchivedReceiver" />
+        <receiver android:name="com.freetux.PRSMS.receiver.BlockThreadReceiver" />
+        <receiver android:name="com.freetux.PRSMS.receiver.MarkSeenReceiver" />
+        <receiver android:name="com.freetux.PRSMS.receiver.MarkReadReceiver" />
+        <receiver android:name="com.freetux.PRSMS.receiver.RemoteMessagingReceiver" />
+        <receiver android:name="com.freetux.PRSMS.receiver.NightModeReceiver" />
+        <receiver android:name="com.freetux.PRSMS.receiver.SmsProviderChangedReceiver">
             <intent-filter>
                 <action android:name="android.provider.action.EXTERNAL_PROVIDER_CHANGE" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".receiver.SendScheduledMessageReceiver" />
-        <receiver android:name=".feature.widget.WidgetProvider">
+        <receiver android:name="com.freetux.PRSMS.receiver.SendScheduledMessageReceiver" />
+        <receiver android:name="com.freetux.PRSMS.feature.widget.WidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.moez.QKSMS.intent.action.ACTION_NOTIFY_DATASET_CHANGED" />
+                <action android:name="com.freetux.PRSMS.intent.action.ACTION_NOTIFY_DATASET_CHANGED" />
             </intent-filter>
 
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_info" />
         </receiver>
-        <receiver android:name=".receiver.SendSmsReceiver" />
+        <receiver android:name="com.freetux.PRSMS.receiver.SendSmsReceiver" />
 
         <service android:name="com.android.mms.transaction.TransactionService" />
-        <service android:name=".feature.backup.RestoreBackupService" />
+        <service android:name="com.freetux.PRSMS.feature.backup.RestoreBackupService" />
         <service
-            android:name=".feature.widget.WidgetService"
+            android:name="com.freetux.PRSMS.feature.widget.WidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
         <service
-            android:name=".service.AutoDeleteService"
+            android:name="com.freetux.PRSMS.service.AutoDeleteService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
         <service
-            android:name=".service.HeadlessSmsSendService"
+            android:name="com.freetux.PRSMS.service.HeadlessSmsSendService"
             android:exported="true"
             android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
             <intent-filter>
@@ -202,7 +207,7 @@
             </intent-filter>
         </service>
         <service
-            android:name=".common.util.QkChooserTargetService"
+            android:name="com.freetux.PRSMS.common.util.QkChooserTargetService"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
             <intent-filter>

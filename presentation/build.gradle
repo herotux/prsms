@@ -1,46 +1,72 @@
 /*
- * Copyright (C) 2017 Moez Bhatti <moez.bhatti@gmail.com>
+ * Copyright (C) 2017 Freetux <thefreetux@gmail.com>
  *
- * This file is part of QKSMS.
+ * This file is part of PRSMS.
  *
- * QKSMS is free software: you can redistribute it and/or modify
+ * PRSMS is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * QKSMS is distributed in the hope that it will be useful,
+ * PRSMS is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+ * along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
  */
 apply plugin: 'com.android.application'
 apply plugin: 'realm-android' // Realm needs to be before Kotlin or the build will fail
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+def keystorePwd = null
+def alias = null
+def pwd = null
+Properties properties
+def base64 = System.getenv("LOCAL_PROPERTIES")
+if (base64 != null && !base64.isBlank()) {
+    properties = new Properties()
+    properties.load(new ByteArrayInputStream(Base64.decoder.decode(base64)))
+} else if (project.rootProject.file("local.properties").exists()) {
+    properties = new Properties()
+    properties.load(project.rootProject.file("local.properties").newDataInputStream())
+}
 
+if (properties != null) {
+    keystorePwd = properties.getProperty("KEYSTORE_PASS")
+    alias = properties.getProperty("ALIAS_NAME")
+    pwd = properties.getProperty("ALIAS_PASS")
+}
+
+keystorePwd = keystorePwd ?: System.getenv("KEYSTORE_PASS")
+alias = alias ?: System.getenv("ALIAS_NAME")
+pwd = pwd ?: System.getenv("ALIAS_PASS")
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
     flavorDimensions "analytics"
 
     defaultConfig {
-        applicationId "com.moez.QKSMS"
+        applicationId "com.freetux.PRSMS"
         minSdkVersion 21
-        targetSdkVersion 29
-        versionCode 2218
-        versionName "3.9.4"
-        setProperty("archivesBaseName", "QKSMS-v${versionName}")
+        targetSdkVersion 30
+        versionCode 2220
+        versionName "0.1.1"
+        setProperty("archivesBaseName", "PRSMS-v${versionName}")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        setProperty("archivesBaseName", "QKSMS-v${versionName}")
+        setProperty("archivesBaseName", "PRSMS-v${versionName}")
     }
 
     signingConfigs {
-        release
+        release {
+            storeFile project.file("Keystore.jks")
+            storePassword keystorePwd
+            keyAlias alias
+            keyPassword pwd
+        }
     }
 
     buildTypes {

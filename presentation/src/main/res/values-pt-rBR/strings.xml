@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2019 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2019 Freetux <thefreetux@gmail.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of PRSMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ PRSMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ PRSMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
     <string name="shortcut_compose_long_label">Nova conversa</string>
@@ -56,11 +56,11 @@
     <string name="archived_empty_text">Suas conversas arquivadas irão aparecer aqui</string>
     <string name="main_fab_cd">Iniciar nova conversa</string>
     <string name="main_default_sms_title">Ame enviar SMS de novo</string>
-    <string name="main_default_sms_message">Faça o QKSMS seu app padrão de SMS</string>
+    <string name="main_default_sms_message">Faça o PRSMS seu app padrão de SMS</string>
     <string name="main_default_sms_change">Alterar</string>
     <string name="main_permission_required">Permissão necessária</string>
-    <string name="main_permission_sms">O QKSMS precisa de permissão para enviar e visualizar mensagens SMS</string>
-    <string name="main_permission_contacts">O QKSMS precisa de permissão para visualizar seus contatos</string>
+    <string name="main_permission_sms">O PRSMS precisa de permissão para enviar e visualizar mensagens SMS</string>
+    <string name="main_permission_contacts">O PRSMS precisa de permissão para visualizar seus contatos</string>
     <string name="main_permission_allow">Permitir</string>
     <string name="drawer_inbox">Caixa de entrada</string>
     <string name="drawer_archived">Arquivadas</string>
@@ -71,7 +71,7 @@
     <string name="drawer_help">Ajuda &amp; comentários</string>
     <string name="drawer_invite">Convidar amigos</string>
     <string name="drawer_plus_banner_summary">Desbloqueie novos recursos incríveis e apoie o desenvolvimento</string>
-    <string name="rate_title">Tá gostando do QKSMS?</string>
+    <string name="rate_title">Tá gostando do PRSMS?</string>
     <string name="rate_summary">Compartilhe um pouco de amor e avalie-nos no Google Play!</string>
     <string name="rate_okay">OK!</string>
     <string name="rate_dismiss">DESCARTAR</string>
@@ -97,7 +97,7 @@
     <string name="compose_vcard_label">Cartão de contato</string>
     <string name="compose_scheduled_for">Agendada para</string>
     <string name="compose_scheduled_future">O tempo selecionado deve ser no futuro!</string>
-    <string name="compose_scheduled_plus">Você deve desbloquear o QKSMS+ para agendar mensagens</string>
+    <string name="compose_scheduled_plus">Você deve desbloquear o PRSMS+ para agendar mensagens</string>
     <string name="compose_scheduled_toast">Adicionada às mensagens agendadas</string>
     <string name="compose_hint">Escrever uma mensagem&#8230;</string>
     <string name="compose_menu_copy">Copiar texto</string>
@@ -150,7 +150,7 @@
     <string name="backup_never">Nunca</string>
     <string name="backup_restore_title">Recuperar</string>
     <string name="backup_restore_summary">Selecione um backup</string>
-    <string name="backup_restore_error_plus">Por favor, desbloqueie o QKSMS+ para fazer backup e recuperar</string>
+    <string name="backup_restore_error_plus">Por favor, desbloqueie o PRSMS+ para fazer backup e recuperar</string>
     <string name="backup_restore_error_backup">Backup em andamento&#8230;</string>
     <string name="backup_restore_error_restore">Recuperação em andamento&#8230;</string>
     <string name="backup_restore_confirm_title">Recuperar do backup</string>
@@ -187,7 +187,7 @@
     </string-array>
     <string name="settings_category_appearance">Aparência</string>
     <string name="settings_category_general">Geral</string>
-    <string name="settings_category_qkreply">Responder via QKSMS</string>
+    <string name="settings_category_qkreply">Responder via PRSMS</string>
     <string name="settings_theme_title">Tema</string>
     <string name="settings_night_title">Modo noturno</string>
     <string name="settings_black_title">Modo noturno preto puro</string>
@@ -208,7 +208,7 @@
     <string name="settings_vibration_title">Vibração</string>
     <string name="settings_ringtone_title">Som</string>
     <string name="settings_ringtone_none">Nenhum</string>
-    <string name="settings_qkreply_title">Responder via QKSMS</string>
+    <string name="settings_qkreply_title">Responder via PRSMS</string>
     <string name="settings_qkreply_summary">Popup para novas mensagens</string>
     <string name="settings_qkreply_tap_dismiss_title">Toque para descartar</string>
     <string name="settings_qkreply_tap_dismiss_summary">Toque fora do popup para fechá-lo</string>
@@ -250,7 +250,7 @@
     <string name="settings_mms_size_title">Comprimir anexos MMS automaticamente</string>
     <string name="settings_sync_title">Sincronizar mensagens</string>
     <string name="settings_sync_summary">Re-sincronizar suas mensagens com o banco de dados de SMS nativo do Android</string>
-    <string name="settings_about_title">Sobre o QKSMS</string>
+    <string name="settings_about_title">Sobre o PRSMS</string>
     <string name="settings_version">Versão %s</string>
     <string name="settings_logging_enabled">Log de depuração ativado</string>
     <string name="settings_logging_disabled">Log de depuração desativado</string>
@@ -260,8 +260,8 @@
     <string name="blocking_drop_summary">Drop incoming messages from blocked senders instead of hiding them</string>
     <string name="blocking_conversations">Blocked conversations</string>
     <string name="blocking_manager_title">Blocking Manager</string>
-    <string name="blocking_manager_qksms_title">QKSMS</string>
-    <string name="blocking_manager_qksms_summary">Built-in blocking functionality in QKSMS</string>
+    <string name="blocking_manager_qksms_title">PRSMS</string>
+    <string name="blocking_manager_qksms_summary">Built-in blocking functionality in PRSMS</string>
     <string name="blocking_manager_call_blocker_summary">Block spam messages, numbers &amp; unknown calls with blacklist &amp; Schedule</string>
     <string name="blocking_manager_call_control_summary">Automatically filter your calls and messages in one convenient place! Community IQ™ allows you to prevent unwanted messages from community known spammers</string>
     <string name="blocking_manager_sia_summary">Automaticamente filtrar mensagens não solicitadas usando o aplicativo \"Should I Answer\"</string>
@@ -299,11 +299,11 @@
     <string name="qksms_plus_upgrade">Atualização vitalícia por %1$s %2$s</string>
     <!-- Substitutions are for price and currency. Ex: Unlock + donate for $4.99 USD -->
     <string name="qksms_plus_upgrade_donate">Desbloqueie e doar por %1$s %2$s</string>
-    <string name="qksms_plus_thanks_title">Obrigado por apoiar o QKSMS!</string>
-    <string name="qksms_plus_thanks_summary">Agora você tem acesso a todos os recursos do QKSMS+</string>
+    <string name="qksms_plus_thanks_title">Obrigado por apoiar o PRSMS!</string>
+    <string name="qksms_plus_thanks_summary">Agora você tem acesso a todos os recursos do PRSMS+</string>
     <string name="qksms_plus_error">An error has occurred, please try again</string>
-    <string name="qksms_plus_free_title">QKSMS+ é gratuito para usuários do F-Droid! Se você gostaria de apoiar o desenvolvimento, sinta-se livre para fazer uma doação.</string>
-    <string name="qksms_plus_donate">Doar via PayPal</string>
+    <string name="qksms_plus_free_title">PRSMS+ é gratuito para usuários do F-Droid! Se você gostaria de apoiar o desenvolvimento, sinta-se livre para fazer uma doação.</string>
+    <string name="qksms_plus_donate">Doar via IDPay</string>
     <string name="qksms_plus_coming_soon">Em Breve</string>
     <string name="qksms_plus_themes_title">Temas premium</string>
     <string name="qksms_plus_themes_summary">Desbloqueie belos temas não disponíveis na paleta do Material Design</string>
@@ -324,7 +324,7 @@
     <string name="qksms_plus_respond_title">Auto-responder</string>
     <string name="qksms_plus_respond_summary">Responde automaticamente às mensagens recebidas com uma resposta predefinida</string>
     <string name="qksms_plus_more_title">Mais</string>
-    <string name="qksms_plus_more_summary">O QKSMS está em desenvolvimento ativo e sua compra incluirá todos os futuros recursos do QKSMS+!</string>
+    <string name="qksms_plus_more_summary">O PRSMS está em desenvolvimento ativo e sua compra incluirá todos os futuros recursos do PRSMS+!</string>
     <string name="widget_loading">Carregando&#8230;</string>
     <string name="widget_more">Ver mais conversas</string>
     <string name="qkreply_menu_read">Mark read</string>
@@ -356,7 +356,7 @@
     <string name="button_undo">Desfazer</string>
     <string name="toast_copied">Copiada</string>
     <string name="toast_archived">Conversa arquivada</string>
-    <string name="toast_qksms_plus">Você deve desbloquear o QKSMS+ para isto</string>
+    <string name="toast_qksms_plus">Você deve desbloquear o PRSMS+ para isto</string>
     <plurals name="notification_new_messages">
         <item quantity="one">Nova mensagem</item>
         <item quantity="other">%s novas mensagens</item>

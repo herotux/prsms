@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2019 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2019 Freetux <thefreetux@gmail.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of PRSMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ PRSMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ PRSMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
     <string name="shortcut_compose_long_label">Yeni konuşma</string>
@@ -56,11 +56,11 @@
     <string name="archived_empty_text">Arşivlenmiş konuşmalarınız burada görünür</string>
     <string name="main_fab_cd">Yeni konuşma başlat</string>
     <string name="main_default_sms_title">Yine mesajlaşmayı seviyorum</string>
-    <string name="main_default_sms_message">QKSMS varsayılan SMS uygulaması yap</string>
+    <string name="main_default_sms_message">PRSMS varsayılan SMS uygulaması yap</string>
     <string name="main_default_sms_change">Değiştir</string>
     <string name="main_permission_required">İzin gerekli</string>
-    <string name="main_permission_sms">QKSMS göndermek ve SMS mesajları görüntülemek için izni olması gerekir.</string>
-    <string name="main_permission_contacts">QKSMS kişilerinizi görüntülemek için izni olması gerekir.</string>
+    <string name="main_permission_sms">PRSMS göndermek ve SMS mesajları görüntülemek için izni olması gerekir.</string>
+    <string name="main_permission_contacts">PRSMS kişilerinizi görüntülemek için izni olması gerekir.</string>
     <string name="main_permission_allow">İzin ver</string>
     <string name="drawer_inbox">Gelen Kutusu</string>
     <string name="drawer_archived">Arşivle</string>
@@ -71,7 +71,7 @@
     <string name="drawer_help">Yardım &amp; Geri bildirim</string>
     <string name="drawer_invite">Arkadaşlarınızı davet edin</string>
     <string name="drawer_plus_banner_summary">İnanılmaz yeni özelliklerin kilidini aç ve geliştirmeye destek ol</string>
-    <string name="rate_title">QKSMS tadını çıkarıyor musun?</string>
+    <string name="rate_title">PRSMS tadını çıkarıyor musun?</string>
     <string name="rate_summary">Biraz sevgi paylaş ve Google Playden bizi oyla!</string>
     <string name="rate_okay">TAMAM!</string>
     <string name="rate_dismiss">GÖREVDEN</string>
@@ -97,7 +97,7 @@
     <string name="compose_vcard_label">Kişi Kartı</string>
     <string name="compose_scheduled_for">Planlanan</string>
     <string name="compose_scheduled_future">Seçilen zaman gelecekte olmalı!</string>
-    <string name="compose_scheduled_plus">Zamanlanmış mesajlaşma kullanmak için QKSMS+ kilidini kaldırmak gerekir</string>
+    <string name="compose_scheduled_plus">Zamanlanmış mesajlaşma kullanmak için PRSMS+ kilidini kaldırmak gerekir</string>
     <string name="compose_scheduled_toast">Zamanlanmış iletilere eklendi</string>
     <string name="compose_hint">Mesaj Yaz...</string>
     <string name="compose_menu_copy">Metni kopyala</string>
@@ -150,7 +150,7 @@
     <string name="backup_never">Asla</string>
     <string name="backup_restore_title">Geri yükle</string>
     <string name="backup_restore_summary">Bir yedekleme\'yi seçin</string>
-    <string name="backup_restore_error_plus">Lütfen yedeklemeyi ve geri yüklemeyi kullanmak için QKSMS+\'ı açınız.</string>
+    <string name="backup_restore_error_plus">Lütfen yedeklemeyi ve geri yüklemeyi kullanmak için PRSMS+\'ı açınız.</string>
     <string name="backup_restore_error_backup">Yedekleme devam ediyor...</string>
     <string name="backup_restore_error_restore">Geri yükleme devam ediyor...</string>
     <string name="backup_restore_confirm_title">Yedeklemeyi geri yükle</string>
@@ -250,7 +250,7 @@
     <string name="settings_mms_size_title">Otomatik-MMS ekleri sıkıştır</string>
     <string name="settings_sync_title"> İletileri eşitle</string>
     <string name="settings_sync_summary">İletilerinizi  Android SMS veritabanı ile yeniden senkronize edin</string>
-    <string name="settings_about_title">QKSMS Hakkında</string>
+    <string name="settings_about_title">PRSMS Hakkında</string>
     <string name="settings_version">Sürüm %s</string>
     <string name="settings_logging_enabled">Hata ayıklama günlüğü etkin</string>
     <string name="settings_logging_disabled">Hata ayıklama günlüğü devre dışı</string>
@@ -260,8 +260,8 @@
     <string name="blocking_drop_summary">Engellenen gönderenlerden gelen mesajları gizlemek yerine bırakın</string>
     <string name="blocking_conversations">Engellenen konuşmalar</string>
     <string name="blocking_manager_title">Engelleme Yöneticisi</string>
-    <string name="blocking_manager_qksms_title">QKSMS</string>
-    <string name="blocking_manager_qksms_summary">QKSMS\'de yerleşik engelleme işlevi</string>
+    <string name="blocking_manager_qksms_title">PRSMS</string>
+    <string name="blocking_manager_qksms_summary">PRSMS\'de yerleşik engelleme işlevi</string>
     <string name="blocking_manager_call_blocker_summary">Block spam messages, numbers &amp; unknown calls with blacklist &amp; Schedule</string>
     <string name="blocking_manager_call_control_summary">Aramalarınızı ve mesajlarınızı uygun bir yerde otomatik olarak filtreleyin! Topluluk IQ™ bilinen spam istenmeyen mesajları önlemek için izin verir
 
@@ -301,11 +301,11 @@ BAĞLAM İSTEĞİ</string>
     <string name="qksms_plus_upgrade">Süresiz kullanmak 1$s %2$s</string>
     <!-- Substitutions are for price and currency. Ex: Unlock + donate for $4.99 USD -->
     <string name="qksms_plus_upgrade_donate">Kilidi aç ve Satın Al %1$s %2$s</string>
-    <string name="qksms_plus_thanks_title">QKSMS desteği için teşekkür ederiz!!</string>
-    <string name="qksms_plus_thanks_summary">Şimdi tüm QKSMS+ özellikleri açıldı!</string>
+    <string name="qksms_plus_thanks_title">PRSMS desteği için teşekkür ederiz!!</string>
+    <string name="qksms_plus_thanks_summary">Şimdi tüm PRSMS+ özellikleri açıldı!</string>
     <string name="qksms_plus_error">An error has occurred, please try again</string>
-    <string name="qksms_plus_free_title">QKSMS+ F-Droid kullanıcıları için ücretsizdir! Eğer gelişmeyi desteklemek istiyorsanız, bağış yapmakta özgürsünüz.</string>
-    <string name="qksms_plus_donate">Paypal ile satın al</string>
+    <string name="qksms_plus_free_title">PRSMS+ F-Droid kullanıcıları için ücretsizdir! Eğer gelişmeyi desteklemek istiyorsanız, bağış yapmakta özgürsünüz.</string>
+    <string name="qksms_plus_donate">IDPay ile satın al</string>
     <string name="qksms_plus_coming_soon">Yakında</string>
     <string name="qksms_plus_themes_title">Ücretli Temalar</string>
     <string name="qksms_plus_themes_summary">Malzeme tasarım paleti üzerinde bulunmayan güzel tema renkleri aç</string>
@@ -326,7 +326,7 @@ BAĞLAM İSTEĞİ</string>
     <string name="qksms_plus_respond_title">Otomatik yanıtla</string>
     <string name="qksms_plus_respond_summary">Önceden ayarlanmış bir yanıt ile gelen iletilere otomatik olarak yanıtla</string>
     <string name="qksms_plus_more_title">Daha fazla</string>
-    <string name="qksms_plus_more_summary">QKSMS etkin geliştirme altında ve satın alırsan tüm gelecek QKSMS+ özellikleri dahil olacaktır!</string>
+    <string name="qksms_plus_more_summary">PRSMS etkin geliştirme altında ve satın alırsan tüm gelecek PRSMS+ özellikleri dahil olacaktır!</string>
     <string name="widget_loading">Yükleniyor...</string>
     <string name="widget_more">Daha fazla konuşma göster</string>
     <string name="qkreply_menu_read">Okundu olarak işaretle</string>
@@ -358,7 +358,7 @@ BAĞLAM İSTEĞİ</string>
     <string name="button_undo">Geri al</string>
     <string name="toast_copied">Kopyalandı.</string>
     <string name="toast_archived">Arşivlenmiş konuşmalar</string>
-    <string name="toast_qksms_plus">Bunu kullanmak için QKSMS+ kilidi gerekir</string>
+    <string name="toast_qksms_plus">Bunu kullanmak için PRSMS+ kilidi gerekir</string>
     <plurals name="notification_new_messages">
         <item quantity="one">Yeni mesaj</item>
         <item quantity="other">Yeni mesaj</item>

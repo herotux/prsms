@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 Moez Bhatti <freetux.bhatti@gmail.com>
+ * Copyright (C) 2021 Freetux <thefreetux@gmail.com>
  *
  * This file is part of PRSMS.
  *

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2019 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2019 Freetux <thefreetux@gmail.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of PRSMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ PRSMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ PRSMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
     <string name="shortcut_compose_long_label">Åbn samtale</string>
@@ -56,11 +56,11 @@
     <string name="archived_empty_text">Dine arkiverede samtaler vil fremgå her</string>
     <string name="main_fab_cd">Start ny samtale</string>
     <string name="main_default_sms_title">Elsk at SMS\'e igen</string>
-    <string name="main_default_sms_message">Gør QKSMS til din standard SMS-app</string>
+    <string name="main_default_sms_message">Gør PRSMS til din standard SMS-app</string>
     <string name="main_default_sms_change">Skift</string>
     <string name="main_permission_required">Tilladelse nødvendig</string>
-    <string name="main_permission_sms">QKSMS behøver tilladelse til at sende og vise SMS\'er</string>
-    <string name="main_permission_contacts">QKSMS behøver tilladelse til at se dine kontakter</string>
+    <string name="main_permission_sms">PRSMS behøver tilladelse til at sende og vise SMS\'er</string>
+    <string name="main_permission_contacts">PRSMS behøver tilladelse til at se dine kontakter</string>
     <string name="main_permission_allow">Tillad</string>
     <string name="drawer_inbox">Indbakke</string>
     <string name="drawer_archived">Arkiveret</string>
@@ -71,7 +71,7 @@
     <string name="drawer_help">Hjælp og feedback</string>
     <string name="drawer_invite">Invitér venner</string>
     <string name="drawer_plus_banner_summary">Oplås fantastiske nye funktioner og støt udvikling</string>
-    <string name="rate_title">Synes om QKSMS?</string>
+    <string name="rate_title">Synes om PRSMS?</string>
     <string name="rate_summary">Del og bedøm os på Google Play!</string>
     <string name="rate_okay">OKAY!</string>
     <string name="rate_dismiss">AFVIS</string>
@@ -97,7 +97,7 @@
     <string name="compose_vcard_label">Kontaktkort</string>
     <string name="compose_scheduled_for">Planlagt til</string>
     <string name="compose_scheduled_future">Valgte tidspunkt skal være i fremtiden!</string>
-    <string name="compose_scheduled_plus">Du skal oplåse QKSMS+ for at benytte planlagt beskedfunktion</string>
+    <string name="compose_scheduled_plus">Du skal oplåse PRSMS+ for at benytte planlagt beskedfunktion</string>
     <string name="compose_scheduled_toast">Føjet til planlagte beskeder</string>
     <string name="compose_hint">Skriv en besked&#8230;</string>
     <string name="compose_menu_copy">Kopier tekst</string>
@@ -150,7 +150,7 @@
     <string name="backup_never">Aldrig</string>
     <string name="backup_restore_title">Gendanne</string>
     <string name="backup_restore_summary">Vælg en sikkerhedskopi</string>
-    <string name="backup_restore_error_plus">Oplås QKSMS+ for at benytte sikkerhedskopiering og gendannelse</string>
+    <string name="backup_restore_error_plus">Oplås PRSMS+ for at benytte sikkerhedskopiering og gendannelse</string>
     <string name="backup_restore_error_backup">Sikkerhedskopiering i gang&#8230;</string>
     <string name="backup_restore_error_restore">Gendannelse i gang&#8230;</string>
     <string name="backup_restore_confirm_title">Genskab fra sikkerhedskopi</string>
@@ -250,7 +250,7 @@
     <string name="settings_mms_size_title">Auto-komprimér MMS-vedhæftninger</string>
     <string name="settings_sync_title">Beskedsynkronisering</string>
     <string name="settings_sync_summary">Gen-synkroniéer beskeder med den indbyggede Android SMS-database</string>
-    <string name="settings_about_title">Om QKSMS</string>
+    <string name="settings_about_title">Om PRSMS</string>
     <string name="settings_version">Version %s</string>
     <string name="settings_logging_enabled">Fejlfindingslogning aktiveret</string>
     <string name="settings_logging_disabled">Fejlfindingslogning deaktiveret</string>
@@ -260,8 +260,8 @@
     <string name="blocking_drop_summary">Drop indgående beskeder fra blokerede afsendere i stedet for at skjule dem</string>
     <string name="blocking_conversations">Blokerede samtaler</string>
     <string name="blocking_manager_title">Blokeringshåndtering</string>
-    <string name="blocking_manager_qksms_title">QKSMS</string>
-    <string name="blocking_manager_qksms_summary">Indbygget blokeringsfunktionalitet i QKSMS</string>
+    <string name="blocking_manager_qksms_title">PRSMS</string>
+    <string name="blocking_manager_qksms_summary">Indbygget blokeringsfunktionalitet i PRSMS</string>
     <string name="blocking_manager_call_blocker_summary">Block spam messages, numbers &amp; unknown calls with blacklist &amp; Schedule</string>
     <string name="blocking_manager_call_control_summary">Filtrér automatisk dine opkald og beskeder på ét praktisk sted! Community IQ ™ giver dig mulighed for at forhindre uønskede beskeder fra spammere kendt af fællesskabet</string>
     <string name="blocking_manager_sia_summary">Filtrér automatisk beskeder fra uopfordrede numre vha. \"Bør jeg besvare\"-app\'en</string>
@@ -299,11 +299,11 @@
     <string name="qksms_plus_upgrade">Livstidsopgradering for %1$s %2$s</string>
     <!-- Substitutions are for price and currency. Ex: Unlock + donate for $4.99 USD -->
     <string name="qksms_plus_upgrade_donate">Oplås + donér for %1$s %2$s</string>
-    <string name="qksms_plus_thanks_title">Tak for din støtte til QKSMS!</string>
-    <string name="qksms_plus_thanks_summary">Du har nu adgang til alle QKSMS+-funktioner</string>
+    <string name="qksms_plus_thanks_title">Tak for din støtte til PRSMS!</string>
+    <string name="qksms_plus_thanks_summary">Du har nu adgang til alle PRSMS+-funktioner</string>
     <string name="qksms_plus_error">An error has occurred, please try again</string>
-    <string name="qksms_plus_free_title">QKSMS+ er gratis for F-Droid-brugere! Ønsker du at støtte udviklingen, er du velkommen til at donere.</string>
-    <string name="qksms_plus_donate">Donér via PayPal</string>
+    <string name="qksms_plus_free_title">PRSMS+ er gratis for F-Droid-brugere! Ønsker du at støtte udviklingen, er du velkommen til at donere.</string>
+    <string name="qksms_plus_donate">Donér via IDPay</string>
     <string name="qksms_plus_coming_soon">Kommer snart</string>
     <string name="qksms_plus_themes_title">Premium-temaer</string>
     <string name="qksms_plus_themes_summary">Oplås smukke temafarver, som ikke er tilgængelig på Material Design-paletten</string>
@@ -324,7 +324,7 @@
     <string name="qksms_plus_respond_title">Autosvar</string>
     <string name="qksms_plus_respond_summary">Besvarer automatisk indgående beskeder med et foruddefineret svar</string>
     <string name="qksms_plus_more_title">Flere</string>
-    <string name="qksms_plus_more_summary">QKSMS er under aktiv udvikling, og dit køb vil omfatte alle fremtidige QKSMS+ funktioner!</string>
+    <string name="qksms_plus_more_summary">PRSMS er under aktiv udvikling, og dit køb vil omfatte alle fremtidige PRSMS+ funktioner!</string>
     <string name="widget_loading">Indlæser&#8230;</string>
     <string name="widget_more">Se flere samtaler</string>
     <string name="qkreply_menu_read">Markér som læst</string>
@@ -356,7 +356,7 @@
     <string name="button_undo">Fortryd</string>
     <string name="toast_copied">Kopieret</string>
     <string name="toast_archived">Arkiveret samtale</string>
-    <string name="toast_qksms_plus">Dette kræver oplåsning af QKSMS+</string>
+    <string name="toast_qksms_plus">Dette kræver oplåsning af PRSMS+</string>
     <plurals name="notification_new_messages">
         <item quantity="one">Ny besked</item>
         <item quantity="other">%s nye beskeder</item>

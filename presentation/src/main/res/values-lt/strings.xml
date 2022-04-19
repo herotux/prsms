@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2019 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2019 Freetux <thefreetux@gmail.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of PRSMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ PRSMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ PRSMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with PRSMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
     <string name="shortcut_compose_long_label">New conversation</string>
@@ -56,11 +56,11 @@
     <string name="archived_empty_text">Tavo archyvuoti pokalbiai bus čia</string>
     <string name="main_fab_cd">Pradėti naują pokalbį</string>
     <string name="main_default_sms_title">Love texting again</string>
-    <string name="main_default_sms_message">Make QKSMS your default SMS app</string>
+    <string name="main_default_sms_message">Make PRSMS your default SMS app</string>
     <string name="main_default_sms_change">Change</string>
     <string name="main_permission_required">Permission required</string>
-    <string name="main_permission_sms">QKSMS needs permission to send and view SMS messages</string>
-    <string name="main_permission_contacts">QKSMS needs permission to view your contacts</string>
+    <string name="main_permission_sms">PRSMS needs permission to send and view SMS messages</string>
+    <string name="main_permission_contacts">PRSMS needs permission to view your contacts</string>
     <string name="main_permission_allow">Allow</string>
     <string name="drawer_inbox">Žinutės</string>
     <string name="drawer_archived">Archyvas</string>
@@ -71,7 +71,7 @@
     <string name="drawer_help">Pagalba ir atsiliepimai</string>
     <string name="drawer_invite">Invite friends</string>
     <string name="drawer_plus_banner_summary">Unlock amazing new features, and support development</string>
-    <string name="rate_title">Patinka QKSMS?</string>
+    <string name="rate_title">Patinka PRSMS?</string>
     <string name="rate_summary">Įvertink mūsų programėlę Google Play!</string>
     <string name="rate_okay">OK!</string>
     <string name="rate_dismiss">ATMESTI</string>
@@ -99,7 +99,7 @@
     <string name="compose_vcard_label">Contact card</string>
     <string name="compose_scheduled_for">Scheduled for</string>
     <string name="compose_scheduled_future">Selected time must be in the future!</string>
-    <string name="compose_scheduled_plus">You must unlock QKSMS+ to use scheduled messaging</string>
+    <string name="compose_scheduled_plus">You must unlock PRSMS+ to use scheduled messaging</string>
     <string name="compose_scheduled_toast">Added to scheduled messages</string>
     <string name="compose_hint">Rašyti žinutę...</string>
     <string name="compose_menu_copy">Kopijuoti tekstą</string>
@@ -152,7 +152,7 @@
     <string name="backup_never">Never</string>
     <string name="backup_restore_title">Restore</string>
     <string name="backup_restore_summary">Select a backup</string>
-    <string name="backup_restore_error_plus">Please unlock QKSMS+ to use backup and restore</string>
+    <string name="backup_restore_error_plus">Please unlock PRSMS+ to use backup and restore</string>
     <string name="backup_restore_error_backup">Backup in progress&#8230;</string>
     <string name="backup_restore_error_restore">Restore in progress&#8230;</string>
     <string name="backup_restore_confirm_title">Restore from backup</string>
@@ -256,7 +256,7 @@
     <string name="settings_mms_size_title">Auto-compress MMS attachments</string>
     <string name="settings_sync_title">Sinchronizuoti pranešimus</string>
     <string name="settings_sync_summary">Iš naujo sinchronizuoti Android pranešimų duomenų bazę</string>
-    <string name="settings_about_title">Apie QKSMS</string>
+    <string name="settings_about_title">Apie PRSMS</string>
     <string name="settings_version">Versija %s</string>
     <string name="settings_logging_enabled">Debug logging enabled</string>
     <string name="settings_logging_disabled">Debug logging disabled</string>
@@ -266,8 +266,8 @@
     <string name="blocking_drop_summary">Drop incoming messages from blocked senders instead of hiding them</string>
     <string name="blocking_conversations">Blocked conversations</string>
     <string name="blocking_manager_title">Blocking Manager</string>
-    <string name="blocking_manager_qksms_title">QKSMS</string>
-    <string name="blocking_manager_qksms_summary">Built-in blocking functionality in QKSMS</string>
+    <string name="blocking_manager_qksms_title">PRSMS</string>
+    <string name="blocking_manager_qksms_summary">Built-in blocking functionality in PRSMS</string>
     <string name="blocking_manager_call_blocker_summary">Block spam messages, numbers &amp; unknown calls with blacklist &amp; Schedule</string>
     <string name="blocking_manager_call_control_summary">Automatically filter your calls and messages in one convenient place! Community IQ™ allows you to prevent unwanted messages from community known spammers</string>
     <string name="blocking_manager_sia_summary">Automatiškai filtruoti žinutes nuo nežinomų numerių su „Ar reikia atsakyti“ programėle</string>
@@ -310,10 +310,10 @@
     <!-- Substitutions are for price and currency. Ex: Unlock + donate for $4.99 USD -->
     <string name="qksms_plus_upgrade_donate">Atrakinti + aukoti %1$s %2$s</string>
     <string name="qksms_plus_thanks_title">Ačiū už paramą!</string>
-    <string name="qksms_plus_thanks_summary">Dabar jūs turite prieigą prie visoms QKSMS+ funkcijoms</string>
+    <string name="qksms_plus_thanks_summary">Dabar jūs turite prieigą prie visoms PRSMS+ funkcijoms</string>
     <string name="qksms_plus_error">An error has occurred, please try again</string>
-    <string name="qksms_plus_free_title">QKSMS+ yra nemokama F-Droid vartotojams! Taip pat galite paremti programos kūrėją aukodami.</string>
-    <string name="qksms_plus_donate">Paaukoti per PayPal</string>
+    <string name="qksms_plus_free_title">PRSMS+ yra nemokama F-Droid vartotojams! Taip pat galite paremti programos kūrėją aukodami.</string>
+    <string name="qksms_plus_donate">Paaukoti per IDPay</string>
     <string name="qksms_plus_coming_soon">Jau greitai</string>
     <string name="qksms_plus_themes_title">Premium temos</string>
     <string name="qksms_plus_themes_summary">Atrakink kitas spalvas, kurios nėra „Material“ paletėje</string>
@@ -334,7 +334,7 @@
     <string name="qksms_plus_respond_title">Automatiškai atsakyti</string>
     <string name="qksms_plus_respond_summary">Automatiškai atsakyti į žinutes su tam tikru atsaku</string>
     <string name="qksms_plus_more_title">Daugiau</string>
-    <string name="qksms_plus_more_summary">QKSMS is under active development, and your purchase will include all future QKSMS+ features!</string>
+    <string name="qksms_plus_more_summary">PRSMS is under active development, and your purchase will include all future PRSMS+ features!</string>
     <string name="widget_loading">Kraunama&#8230;</string>
     <string name="widget_more">Žiūrėti daugiau pokalbių</string>
     <string name="qkreply_menu_read">Mark read</string>
@@ -366,7 +366,7 @@
     <string name="button_undo">Anuliuoti</string>
     <string name="toast_copied">Nukopijuota</string>
     <string name="toast_archived">Archyvuotas pokalbis</string>
-    <string name="toast_qksms_plus">Reikia turėti QKSMS+ funkcijos naudojomui</string>
+    <string name="toast_qksms_plus">Reikia turėti PRSMS+ funkcijos naudojomui</string>
     <plurals name="notification_new_messages">
         <item quantity="one">Naujas pranešimas</item>
         <item quantity="few">%s nauji pranešimai</item>
