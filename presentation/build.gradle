@@ -62,7 +62,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("./Keystore.jks")
+            storeFile project.file("Keystore.jks")
             storePassword keystorePwd
             keyAlias alias
             keyPassword pwd
