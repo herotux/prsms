@@ -22,7 +22,7 @@ If you'd like to add translations to PRSMS, please join the project on [Crowdin]
 
 ## Thank you
 
-this app is a fork of qksms and special tanks to ([@Moez Bhatti ](https://github.com/moezbhatti))
+this app is a fork of qksms and special thanks to ([@Moez Bhatti ](https://github.com/moezbhatti))
 
 ## Contact
 
